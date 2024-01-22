@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+    background-color: blueviolet;
+}
+p {
+    color: white;
+}
+hr {
+    color: blue;
+}
