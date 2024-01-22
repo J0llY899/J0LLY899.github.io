@@ -8,36 +8,78 @@ h1 {
 }
 h2 {
     color: white;
+    font-family: arial;
     
+}
+h3 {
+    color: white;
+    font-family: arial;
 }
 p {
     color: white;
     
    
 }
-hr {
-    color: blue;
-}
-#titolo {
-    margin-left: 30px;
-    color: purple;
-    font-family: Arial;
-    border-style: ridge;
-    border-color: purple;
-    border-radius: 5px;
-    text-shadow: 1px 4px 4px ;
-    border-width: 9;
+li {
+    color: white
     
 }
-#sottotitolo {
-    margin-left: 50px;
-    color: greenyellow;
-    font-family: Arial;
-    
-}
-#testo {
-    margin-left: 10px;
-    font-family: arial;
-    font-size: large;
+div {
+    color: white;
 }
 
+#titolo {
+    font-family: arial;
+    margin-left: 50;
+    margin-top: 100px;
+    color: purple;
+    text-align: center;
+    
+}
+#wel-come {
+    font-family: arial;
+    margin-top: -1;
+    
+}
+#contact-me {
+    font-family: arial;
+    margin-top: 90px;
+    text-align: center;
+}
+#li1 {
+    font-family: arial;
+    color:greenyellow;
+    margin-bottom: 10;
+}
+#li2 {
+    font-family: arial;
+    color:greenyellow;
+    margin-bottom: 10;
+}
+#li3 {
+    font-family: arial;
+    color: greenyellow;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; 
+  }
+
+a {
+    color: white;
+    font-family: arial;
+}
+#about-me {
+    font-family: arial;
+    color: purple;
+    text-align: center;
+}
+#about-me-text {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#elenco {
+    margin: 30;
+}
