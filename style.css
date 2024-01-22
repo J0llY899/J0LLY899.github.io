@@ -1,16 +1,43 @@
 body{
     background-color: black;
+    margin-left: 30px;
 }
 h1 {
     color: white;
+    
 }
 h2 {
     color: white;
-    background-color: blueviolet;
+    
 }
 p {
     color: white;
+    
+   
 }
 hr {
     color: blue;
 }
+#titolo {
+    margin-left: 30px;
+    color: purple;
+    font-family: Arial;
+    border-style: ridge;
+    border-color: purple;
+    border-radius: 5px;
+    text-shadow: 1px 4px 4px ;
+    border-width: 9;
+    
+}
+#sottotitolo {
+    margin-left: 50px;
+    color: greenyellow;
+    font-family: Arial;
+    
+}
+#testo {
+    margin-left: 10px;
+    font-family: arial;
+    font-size: large;
+}
+
