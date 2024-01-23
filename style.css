@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 body{
     background-color: black;
     margin-left: 30px;
@@ -29,36 +31,40 @@ div {
 }
 
 #titolo {
-    font-family: arial;
-    margin-left: 0;
-    margin-top: 100px;
-    color: purple;
-    text-align: center;
+    font-family: Comfortaa;
+    color: white;
+    margin-top: 60px;
+    
     
 }
 #wel-come {
-    font-family: arial;
-    margin-top: -1;
+    font-family: Comfortaa;
+    margin-top: -10px;
+    font-size: large;
+    
+    
+    
+     
     
 }
 #contact-me {
-    font-family: arial;
+    font-family: Quicksand;
     margin-top: 90px;
     text-align: center;
 }
 #li1 {
-    font-family: arial;
-    color:greenyellow;
+    font-family: Quicksand;
+    color:white;
     margin-bottom: 10;
 }
 #li2 {
-    font-family: arial;
-    color:greenyellow;
+    font-family: Quicksand;
+    color:white;
     margin-bottom: 10;
 }
 #li3 {
-    font-family: arial;
-    color: greenyellow;
+    font-family: Quicksand;
+    color: white;
 }
 
 .grid-container {
@@ -72,14 +78,34 @@ a {
     font-family: arial;
 }
 #about-me {
-    font-family: arial;
-    color: purple;
-    text-align: center;
+    font-family: Quicksand;
+    color: greenyellow;
+    text-align: right;
+    margin-right: 100;
 }
 #about-me-text {
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    text-align: right;
+    font-family: Quicksand;
+    margin-left: 500;
+    margin-right: 100;
+    
+    
 }
 #elenco {
     margin: 30;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: Comfortaa;
+
+    
+}
+a:hover {
+    color: greenyellow;
+}
+#forr {
+    font-family: Comfortaa;
 }
