@@ -34,18 +34,14 @@ div {
     font-family: Comfortaa;
     color: white;
     margin-top: 60px;
+    font-size: 100;
     
     
 }
 #wel-come {
     font-family: Comfortaa;
-    margin-top: -10px;
-    font-size: large;
-    
-    
-    
-     
-    
+    margin-top: -70px;
+    font-size: 70;
 }
 #contact-me {
     font-family: Quicksand;
@@ -56,15 +52,18 @@ div {
     font-family: Quicksand;
     color:white;
     margin-bottom: 10;
+    font-size: 35;
 }
 #li2 {
     font-family: Quicksand;
     color:white;
     margin-bottom: 10;
+    font-size: 35;
 }
 #li3 {
     font-family: Quicksand;
     color: white;
+    font-size: 35;
 }
 
 .grid-container {
@@ -82,12 +81,14 @@ a {
     color: greenyellow;
     text-align: right;
     margin-right: 100;
+    font-size: 70;
 }
 #about-me-text {
     text-align: right;
     font-family: Quicksand;
     margin-left: 500;
     margin-right: 100;
+    font-size: 20;
     
     
 }
@@ -100,6 +101,7 @@ a {
     text-decoration: none;
     transition: color 0.3s;
     font-family: Comfortaa;
+    font-size: 80;
 
     
 }
@@ -108,4 +110,10 @@ a:hover {
 }
 #forr {
     font-family: Comfortaa;
+    font-size: 80;
+}
+#due-punti {
+    color: red;
+    margin-left: -25;
+    
 }
