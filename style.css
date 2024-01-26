@@ -86,9 +86,10 @@ a {
 #about-me-text {
     text-align: right;
     font-family: Quicksand;
-    margin-left: 500;
+    margin-left: 700;
     margin-right: 100;
-    font-size: 20;
+    font-size: 30;
+
     
     
 }
@@ -105,15 +106,36 @@ a {
 
     
 }
-a:hover {
+
+#striked:hover {
+    text-decoration: none;
     color: greenyellow;
+    
+    
 }
+
 #forr {
     font-family: Comfortaa;
     font-size: 80;
 }
+
 #due-punti {
     color: red;
     margin-left: -25;
     
 }
+.moving-text {
+    font-family: Quicksand;
+    color: greenyellow;
+    text-align: right;
+    margin-right: 100;
+    font-size: 70;
+}
+#copyy {
+    text-decoration: none;
+    filter: opacity(50%);
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+

@@ -4,6 +4,28 @@
             J0llY
         </title>
         <link rel="stylesheet" href="style.css">
+        
+        <style>
+            @keyframes continuousMove {
+              0% {
+                transform: translateX(0);
+              }
+              50% {
+                transform: translateX(20px); /* Muoviti di 200px a metà dell'animazione */
+              }
+              100% {
+                transform: translateX(0);
+              }
+            }
+        
+            .moving-text {
+              animation: continuousMove 4s linear infinite; /* Durata 4 secondi, tipo di animazione lineare, ripeti infinite volte */
+              white-space: nowrap; /* Evita la divisione del testo su più righe */
+            }
+        </style>
+    
+    
+    
     </head>
     
     
@@ -12,6 +34,7 @@
 
     <body>
         
+
         <h1 id="titolo">
             Hi, I'm J0llY
             <span id="due-punti">
@@ -23,10 +46,14 @@
             Welcome to My site
         </p>
         
-        <h2 id="about-me">
-            About Me:
-            <p>
-                <h3 id="about-me-text">
+        <h2>
+            
+            <span> 
+                <h2 class="moving-text">
+                    About Me: 
+                </h2> 
+                <p>
+                    <h3 id="about-me-text">
                     My passion for programming was born 
                     way back in 2022 when I started creating
                      discord servers for Minecraft communities. 
@@ -35,13 +62,16 @@
                      but recently I started learning some 
                      programming languages, for example Python and HTML. 
                      Soon I want to become a real programmer
-                </h3>
-            </p>
+                    </h3>
+                </p>
+            </span>
         </h2>
     
         <h2>
             <a href="mailto:erdany899@gmail.com" class="color">
-                Contact me
+                <strike id="striked">
+                    Contact me
+                </strike> 
             </a>
             <span id="forr">
                 for:
@@ -61,6 +91,13 @@
     
     
     </body>
+
+    <footer>
+        <p id="copyy">
+          &copy; 2024 ImJ0llY. Tutti i diritti riservati.
+          
+        </p>
+      </footer>
         
 
 
