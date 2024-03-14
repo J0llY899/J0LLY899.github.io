@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Comfortaa, sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    background: #000;
+    color: #fff;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.Logo {
+    font-size: 2.5rem;
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: 1000;
+    cursor: pointer;
+}
+.navbar a {
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 4rem;
+    font-size: 1.7rem;
+
+}
+.for-one{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.07;
+    font-size: 150px;
+}
+.navbar a:hover {
+    color: greenyellow;
+    transition: 0.3s;
+}
+
+.text-overlay {
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+section {
+    position: relative;
+}
+.text-contact-me {
+    font-size: 100px;
+}
+.text-my-projects {
+    font-size: 100px;
+    text-align: right;
+}
+#a-contact-me {
+    color: greenyellow;
+    text-decoration: underline;
+}
+#a-contact-me:hover {
+    text-decoration: none;
+    transition: 0.3s;
+}
+#a-github {
+    color: greenyellow;
+    text-decoration: line-through;
+}
+#a-github:hover {
+    text-decoration: none;
+}
+.here-home {
+    color: greenyellow;
+    font-size: 100px;
+}
+.text-home {
+    font-size: 80px;
+}
+.text-about {
+    font-size: 40px;
+}
+
+
