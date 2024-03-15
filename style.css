@@ -114,6 +114,7 @@ section {
 }
 .text-about {
     font-size: 40px;
+    font-family: sans-serif;
 }
 #copy {
     position: fixed;
