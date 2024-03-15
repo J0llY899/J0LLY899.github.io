@@ -15,7 +15,7 @@ html {
     overflow-x: hidden;
 }
 body {
-    background: #000;
+    background: #191b20;
     color: #fff;
 }
 .header {
@@ -35,6 +35,7 @@ body {
     text-decoration: none;
     font-weight: 1000;
     cursor: pointer;
+    font-family: sans-serif;
 }
 .navbar a {
     text-decoration: none;
@@ -42,6 +43,7 @@ body {
     display: inline-block;
     margin-left: 4rem;
     font-size: 1.7rem;
+    transition: 0.7s;
 
 }
 .for-one{
@@ -52,10 +54,12 @@ body {
     align-items: center;
     opacity: 0.07;
     font-size: 150px;
+    font-family: sans-serif;
 }
 .navbar a:hover {
     color: greenyellow;
     transition: 0.3s;
+    font-size: 2rem;
 }
 
 .text-overlay {
@@ -66,28 +70,35 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 1;
+    font-family: sans-serif;
 }
 section {
     position: relative;
 }
 .text-contact-me {
     font-size: 100px;
+    font-family: sans-serif;
 }
 .text-my-projects {
     font-size: 100px;
     text-align: right;
+    font-family: sans-serif;
 }
 #a-contact-me {
     color: greenyellow;
     text-decoration: underline;
+    font-family: sans-serif;
+    
 }
 #a-contact-me:hover {
     text-decoration: none;
     transition: 0.3s;
+    font-family: sans-serif;
 }
 #a-github {
     color: greenyellow;
     text-decoration: line-through;
+    font-family: sans-serif;
 }
 #a-github:hover {
     text-decoration: none;
@@ -95,12 +106,20 @@ section {
 .here-home {
     color: greenyellow;
     font-size: 100px;
+    font-family: sans-serif;
 }
 .text-home {
     font-size: 80px;
+    font-family: sans-serif;
 }
 .text-about {
     font-size: 40px;
 }
-
+#copy {
+    position: fixed;
+    margin-top: 420px;
+    top: 50%;
+    left: 50%;
+    font-size: 20px; 
+}
 
