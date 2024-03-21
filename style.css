@@ -113,7 +113,15 @@ section {
     font-family: sans-serif;
 }
 .text-about {
-    font-size: 40px;
+    font-size: 4rem;
+    font-family: sans-serif;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 40%;
+    right: 10%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
     font-family: sans-serif;
 }
 #copy {
@@ -123,4 +131,13 @@ section {
     left: 50%;
     font-size: 20px; 
 }
-
+.discord_id {
+    margin-top: 300px;
+    position: absolute;
+    font-size: 2rem;
+    left: 80%;
+}
+#discord-ref {
+    color: greenyellow;
+    text-decoration: line-through;
+}
